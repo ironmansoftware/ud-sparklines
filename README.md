@@ -2,6 +2,12 @@
 
 UDSparklines is built off of [react-sparklines](https://github.com/borisyankov/react-sparklines) to enable sparkline support for PowerShell Universal Dashboard.
 
+Install from the [PowerShell Gallery](https://www.powershellgallery.com/packages/UniversalDashboard.Sparklines)
+
+```
+Install-Module UniversalDashboard.Sparklines
+```
+
 To learn more about Universal Dashboard, visit [PoshUd.com](https://www.poshud.com)
 
 ## Using UDSparklines in Universal Dashboard
