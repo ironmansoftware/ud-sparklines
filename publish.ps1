@@ -1,6 +1,9 @@
-param(
+if ($Env:APPVEYOR) {
     $BuildFolder = $env:APPVEYOR_BUILD_FOLDER
-)
+} else {
+    $BuildFolder = $PSScriptRoot
+}
+
 
 $OutputPath = "$BuildFolder\output\UniversalDashboard.Sparklines"
 

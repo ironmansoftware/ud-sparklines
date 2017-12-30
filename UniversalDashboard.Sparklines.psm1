@@ -24,13 +24,14 @@ function New-UDSparkline {
         [Parameter()]
         $Data,
         [Parameter()]
-        $Color
+        $Color,
+        [Parameter()]
+        $Margin = 5
     )
-
-    
 
     New-UDElement -JavaScriptPath $JsFile -ModuleName "UDSparklines" -Properties @{
         data = $Data
         color = $Color
+        margin = $Margin
     }
 }
