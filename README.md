@@ -37,3 +37,7 @@ New-UDTable -Title "Users" -Headers @("Name", "Emails per Day") -Endpoint {
 It produces the following table in Universal Dashboard. 
 
 ![Image of sparklines](/images/sparklines-demo.png)
+
+## Building UDSparklines
+
+You need to install [node.js](https://nodejs.org/en/) to build UDSparklines. After installing node, you can run the build.ps1 to produce the output for the module. 
